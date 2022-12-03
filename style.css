@@ -1,0 +1,8 @@
+table, th, td{
+    margin-top: 10px;
+    border:1px solid blue;
+    text-align: center;
+}
+form{
+    margin-bottom: 10px;
+}

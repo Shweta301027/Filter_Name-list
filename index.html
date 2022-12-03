@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dymaic list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="input-feild">
+        <input id="name" type="text" placeholder="Enter Name">
+        <input id="age" type="number" placeholder="Enter Age">
+        <input id="pan" type="text" placeholder="Enter Pan Number">
+        <input id="qualification" type="text" placeholder="Enter Highest Qualification">
+        <input id="btn" type="submit" name="" value="Add Info">
+    </form>
+    <form class="filter-data">
+      <select name="" id="sort">
+        <option value="">SELECT SORT OPTION</option>
+        <option value="A-Z">SORT(A-Z)</option>
+        <option value="Z-A">SORT(Z-A)</option>
+      </select>
+      <input id="search-input" type="text" placeholder="FILTER BY PAN" />
+    </form>
+    
+    <table id="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Pan Number</th>
+                <th>Highest Qualification</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- <tr>
+                <td>Shweta</td>
+                <td>30</td>
+                <td>AHWPL1234</td>
+                <td>M.com</td>
+            </tr> -->
+        </tbody>
+
+    </table>
+    <div class="error"></div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
