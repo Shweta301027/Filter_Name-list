@@ -21,15 +21,23 @@
           </select>
           
         <input id="btn" type="submit" name="" value="Add Info">
+        <div class="sortSearch">
+            <select name="" id="sort">
+              <option value="">SORT BY NAME</option>
+              <option value="inc" class="sortBtn">A-Z</option>
+              <option value="dec" class="sortBtn">Z-A</option>
+            </select>
+    
+            <input
+              type="search"
+              name=""
+              id="search"
+              placeholder="Search by PAN number"
+            />
+          </div>
+    
     </form>
-    <form class="filter-data">
-      <select name="" id="sort">
-        <option value="">SELECT SORT OPTION</option>
-        <option value="A-Z">SORT(A-Z)</option>
-        <option value="Z-A">SORT(Z-A)</option>
-      </select>
-      <input id="search-input" type="text" placeholder="FILTER BY PAN" />
-    </form>
+
     
     <table id="table">
         <thead>
@@ -49,7 +57,8 @@
             </tr> -->
         </tbody>
 
-    </table>
+    </table> 
+
     <div class="error"></div>
 
 
